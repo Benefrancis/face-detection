@@ -8,8 +8,6 @@ OpenCV, originally developed by Intel in 2000, is a multiplatform library, compl
 ### Examples
 
 #### Before:
-
-
  
 
 ![img_2.png](img%2Fin%2Fimg_2.png)
