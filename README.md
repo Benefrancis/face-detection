@@ -6,6 +6,23 @@ A área de Computer Vision cresceu muito nos últimos anos a biblioteca OpenCV �
 
 OpenCV, originalmente, desenvolvida pela Intel, em 2000, é uma biblioteca multiplataforma, totalmente livre ao uso acadêmico e comercial, para o desenvolvimento de aplicativos na área de Visão computacional, bastando seguir o modelo de licença BSD Intel.
 
+### Exemplos
+
+#### Antes:
+
+
+ 
+
+![img_2.png](img%2Fin%2Fimg_2.png)
+
+
+#### Depois:
+
+
+![haarcascade_frontalface_default_xml_270596b0-5434-4bbf-9995-2d2e74b60dff.png](img%2Fout%2Fhaarcascade_frontalface_default_xml_270596b0-5434-4bbf-9995-2d2e74b60dff.png)
+
+
+ 
 
 ### Diretórios
 
