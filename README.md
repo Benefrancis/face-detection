@@ -1,14 +1,13 @@
 # Welcome to Benezinho 🔍🤓👍🏽 Face Detection with OpenCV: 4.7.0
 
-A área de Computer Vision cresceu muito nos últimos anos a biblioteca OpenCV é uma das mais utilizadas. Neste projeto demosntro como fazer reconhecimento facial com OpenCV utilizando apenas softwares livres.
+The field of Computer Vision has grown a lot in recent years and the OpenCV library is one of the most widely used. In this project I demonstrate how to do facial recognition with OpenCV using only free software.
+### Introduction
 
-### Introdução
+OpenCV, originally developed by Intel in 2000, is a multiplatform library, completely free for academic and commercial use, for the development of applications in the field of Computer Vision, simply by following the BSD Intel license model.
 
-OpenCV, originalmente, desenvolvida pela Intel, em 2000, é uma biblioteca multiplataforma, totalmente livre ao uso acadêmico e comercial, para o desenvolvimento de aplicativos na área de Visão computacional, bastando seguir o modelo de licença BSD Intel.
+### Examples
 
-### Exemplos
-
-#### Antes:
+#### Before:
 
 
  
@@ -16,7 +15,7 @@ OpenCV, originalmente, desenvolvida pela Intel, em 2000, é uma biblioteca multi
 ![img_2.png](img%2Fin%2Fimg_2.png)
 
 
-#### Depois:
+#### After:
 
 
 ![haarcascade_frontalface_default_xml_270596b0-5434-4bbf-9995-2d2e74b60dff.png](img%2Fout%2Fhaarcascade_frontalface_default_xml_270596b0-5434-4bbf-9995-2d2e74b60dff.png)
@@ -24,17 +23,17 @@ OpenCV, originalmente, desenvolvida pela Intel, em 2000, é uma biblioteca multi
 
  
 
-### Diretórios
+### Directories
 
-1. img/in  : Diretório em que estão as imagens que serão processadas
-   
-   2. img/in/outras  : As imagens neste diretório não serão processadas.
+1. img/in : Directory containing the images to be processed
 
-2. img/out : Diretório onde é salvo as imagens após o reconhecimento facial. O nome do arquivo gerado começa com o nome do classificador seguido de um UUID.
+   2. img/in/outros : The images in this directory will not be processed.
 
-3. data    : Neste diretório ficam os arquivos do OpenCV que são utilizados para reconhecimento.
+2. img/out : Directory where the images are saved after facial recognition. The name of the generated file begins with the name of the classifier followed by a UUID.
 
-4. data/faces : Os arquivos que o código está utilizando para reconhecimento facial. Por padrão estou usando dois arquivos classificadores:
+3. data : This directory contains the OpenCV files used for recognition.
+
+4. data/faces : The files that the code is using for face recognition. By default I'm using two classifier files:
    1.  haarcascade_frontalface_default.xml
    2.  haarcascade_profileface.xml
 
